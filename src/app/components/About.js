@@ -66,9 +66,9 @@ const About = () => {
                 <div className="flex flex-col w-[100px]">
                   <MdOutlineDirectionsCar className="text-5xl text-accent mb-2" />
                   <div className="text-3xl font-black mb-2">
-                    {inView ? (
+                    {/* {inView ? ( */}
                       <CountUp start={0} end={50} duration={3} delay={1} />
-                    ) : null}
+                    {/* ) : null} */}
                     +
                   </div>
                   <div className="uppercase text-[13px] font-semibold text-secondary">
@@ -78,9 +78,9 @@ const About = () => {
                 <div className="flex flex-col w-[100px]">
                   <MdOutlineMapsHomeWork className="text-5xl text-accent mb-2" />
                   <div className="text-3xl font-black mb-2">
-                    {inView ? (
+                    {/* {inView ? ( */}
                       <CountUp start={0} end={135} duration={3} delay={1} />
-                    ) : null}
+                    {/* ) : null} */}
                   </div>
                   <div className="uppercase text-[13px] font-semibold text-secondary">
                     rental <br /> outlets
@@ -89,9 +89,9 @@ const About = () => {
                 <div className="flex flex-col w-[100px]">
                   <MdOutlineBuildCircle className="text-5xl text-accent mb-2" />
                   <div className="text-3xl font-black mb-2">
-                    {inView ? (
+                    {/* {inView ? ( */}
                       <CountUp start={0} end={35} duration={3} delay={1} />
-                    ) : null}
+                    {/* ) : null} */}
                   </div>
                   <div className="uppercase text-[13px] font-semibold text-secondary">
                     repair <br /> points
